@@ -46,9 +46,9 @@ eclipsebin
 **/jalo/cms/**
 
 # allow only custom extensions
-**/hybris/bin/*
-!**/hybris/bin/custom/
-**/hybris/bin/custom/spartacussampledata/
+hybris/bin/*
+!hybris/bin/custom/
+hybris/bin/custom/spartacussampledata/*
  
  # allow only custom recipes
 installer/*
