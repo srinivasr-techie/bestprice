@@ -38,7 +38,7 @@ def platform = platform {
         property 'multicountrysampledataaddon.import.active', 'false'
         property 'occ.rewrite.overlapping.paths.enabled', 'true' // for being able to run B2C & B2B alongside each other
         property 'backoffice.solr.search.index.autoinit', 'false'
-        
+
         property 'corsfilter.default.allowedOrigins', '*'
         property 'corsfilter.acceleratorservices.allowedOrigins', 'origin content-type accept authorization cache-control x-anonymous-consents x-profile-tag-debug x-consent-reference'
         property 'corsfilter.permissionswebservices.allowedOrigins', '*'
@@ -61,14 +61,14 @@ def platform = platform {
 
     extensions {
         // spartacus extensions
-            extName 'spartacussampledata'
+            // extName 'spartacussampledata'
         // b2c-accelerator
             extName 'electronicsstore'
         // base-accelerator
             extName 'bestpricepromotionengineservices'
             extName 'bestpricecouponservices'
             extName 'bestpricecouponfacades'
-            
+
             extName 'bestpricebackoffice'
             extName 'bestpricecore'
             extName 'bestpricefacades'
