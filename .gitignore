@@ -50,6 +50,9 @@ eclipsebin
 **/hybris/bin/*
 !**/hybris/bin/custom/
  
+ # allow only custom recipes
+!**/installer/recipes/cx-bestprice/
+
 # Folders to ignore at the root of the repository
 **/hybris/roles/
 **/hybris/log/
