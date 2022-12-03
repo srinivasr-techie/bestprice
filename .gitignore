@@ -116,6 +116,7 @@ beans.xsd
 items.xsd
 classes/
 eclipsebin/
+wro_addons.xml
 
 # Others
 **/odata-openapi
