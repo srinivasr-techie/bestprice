@@ -1,6 +1,5 @@
 # Folders to ignore at root(hybris)
 hybris-sbg
-installer
 build-tools
 c4c-integration
 licenses
@@ -49,9 +48,13 @@ eclipsebin
 # allow only custom extensions
 **/hybris/bin/*
 !**/hybris/bin/custom/
+**/hybris/bin/custom/spartacussampledata/
  
  # allow only custom recipes
-!**/installer/recipes/cx-bestprice/
+installer/*
+!installer/recipes/
+installer/recipes/*
+!installer/recipes/cx-bestprice/
 
 # Folders to ignore at the root of the repository
 **/hybris/roles/
