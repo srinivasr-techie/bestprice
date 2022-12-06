@@ -79,7 +79,7 @@ def platform = platform {
             extName 'couponbackoffice'
             extName 'couponfacades'
             extName 'couponservices'
-            extName 'couponwebservices'
+            // extName 'couponwebservices'
         // promotion-engine
             extName 'promotionenginebackoffice'
             extName 'promotionenginesamplesaddon'
@@ -102,9 +102,9 @@ def platform = platform {
             extName 'cms2lib'
             extName 'cmsbackoffice'
             extName 'cmsfacades'
-            extName 'cmsocc'
-            extName 'cmswebservices'
-            extName 'previewwebservices'
+            // extName 'cmsocc'
+            // extName 'cmswebservices'
+            // extName 'previewwebservices'
     }
 }
 
