@@ -105,6 +105,37 @@ def platform = platform {
             // extName 'cmsocc'
             // extName 'cmswebservices'
             // extName 'previewwebservices'
+
+        // personalization
+            extName 'personalizationservices'
+            extName 'personalizationservicesbackoffice'
+            extName 'personalizationfacades'
+        // personalization-cms
+            extName 'personalizationcms'
+            extName 'personalizationcmsbackoffice'
+            // extName 'personalizationcmsweb'
+            extName 'personalizationsampledataaddon'
+            extName 'personalizationsmartedit'
+            // extName 'personalizationwebservices'
+            // extName 'previewpersonalizationweb'
+        // personalization-integration
+            // extName 'personalizationaddon'
+            // extName 'personalizationintegration'
+            // extName 'personalizationintegrationbackoffice'
+            // extName 'personalizationyprofile'
+            // extName 'personalizationyprofilesampledataaddon'
+        // personalization-promotion
+            extName 'personalizationpromotions'
+            extName 'personalizationpromotionsbackoffice'
+            extName 'personalizationpromotionssampledataaddon'
+            extName 'personalizationpromotionssmartedit'
+            // extName 'personalizationpromotionsweb'
+        // personalization-search
+            extName 'personalizationsearch'
+            extName 'personalizationsearchbackoffice'
+            extName 'personalizationsearchsamplesaddon'
+            extName 'personalizationsearchsmartedit'
+            // extName 'personalizationsearchweb'
     }
 }
 
